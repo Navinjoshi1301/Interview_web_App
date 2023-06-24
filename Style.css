@@ -1,0 +1,633 @@
+*{
+margin:0;
+padding: 0;
+font-family:'Poppins';
+font-size: medium;
+}
+.background{
+    position:absolute;
+    top:0%;
+    left:0%;
+    height:100vh;
+    width: 100%;
+}
+.navbar{
+    background-color: white;
+    position: absolute;
+    height:10vh;
+    width:100%;
+    left:0%;
+    top:0%;
+}
+.logo{
+    position: absolute;
+    top:12%;
+    left:5%;
+}
+.user{
+    position: absolute;
+    top:10%;
+    left:92%;
+}
+.addbutton{
+    position: absolute;
+    top:22%;
+    left:85%;
+}
+.updatebutton{
+    position: absolute;
+    top: 22%;
+    left: 75.4%;
+}
+.deletebutton{
+    position: absolute;
+    top: 28%;
+    left: 72.5%;
+}
+.container{
+    top: 20%;
+    left:37% ;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 55vh;
+    height: 67vh;
+    border-radius:2vh;
+}
+.back{
+    position: absolute;
+    top:5%;
+    left:6%;
+}
+.dragdrop{
+    position: absolute;
+    top:15%;
+    left:15%;
+    border: 2px dashed #E0651D;
+    height: 16vh;
+    width: 38vh;
+
+}
+.choosefile{
+    position: absolute;
+    width: 100%;
+    color: #F08622;
+    top:66%;
+    left: 6%;
+    
+    
+}
+.input{
+ position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+.import{
+    position: absolute;
+    left:40%;
+    top:15%;
+}
+.or{
+    position: absolute;
+    
+    background-color:#FFFFFF ;
+    width: 7vh;
+    height: 7vh;
+    top: 42%;
+    left: 43%;
+}
+.ortext{
+    position: absolute;
+    top: 24%;
+    left: 25%;
+    color: #E0651D;
+}
+.line{
+    position: absolute;
+   height: 1vh;
+   width:38vh;
+   top: 47%;
+   left: 15.5%;
+}
+.linee{
+    border:1px solid #E0651D30;
+}
+.browsetext{
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    color: #F08622;
+
+}
+.browse{
+    position: absolute;
+    height: 5vh;
+    width: 21vh;
+    top: 57%;
+    left: 30%;
+    border: 2px solid #F08622;
+    border-radius:3px;
+}
+.upload{
+    position: absolute;
+    top: 74%;
+    left: 15%;
+    height:7vh;
+    width:38vh;
+
+}
+.upldbutton{
+width: 38vh;
+height:7vh;
+border: none;
+background-color: #F08622;
+color: #FFFFFF;
+border-radius: 5px;
+}
+
+
+/* _____________________________________________________________________________________________________________________________________________ */
+/* login page css */
+
+.emailcss{
+    position: absolute;
+   
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    width: 40vh;
+    height: 7vh;
+    top: 33%;
+    left: 13%;
+    
+}
+.Input{
+    position: absolute;
+    left: 4%;
+    width: 33vh;
+    height: 7vh;
+    border: white;
+   
+    outline: none;
+    padding-left: 7px;
+    border-left:.6vh solid #f08622 ;
+
+}
+
+.passwordcss{
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    width: 40vh;
+    height: 7vh;
+    top: 50%;
+    left: 13%;
+
+}
+   .slogo{
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    }
+
+    .ForgetPass{
+        position: absolute;
+        background-color: white;
+        top: 62%;
+        left: 57%;
+        height: 1vh;
+        width: 40%;
+    }
+    .Forgot{
+        position: absolute;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-top:1vh ;
+        font-size:smaller;
+        text-decoration: none;
+    } 
+    .LoginBtn{
+        position: absolute;
+        background-color: white(230, 11, 11);
+        top: 73%;
+        left: 13%;
+        height: 7vh;
+        width: 40vh;
+    }  
+    .button{
+        position: absolute;
+        width: 40vh;
+        height: 7vh;
+        color: white;
+        outline: none;
+        border: #f08622;
+        background-color: #f08622;
+        border-radius: 5px;
+    }
+ 
+
+    /*___________________________________________________________________________________________________________________________________________ */
+
+    /* Reset password css */
+ .submitbtn{
+    position: absolute;
+    width: 40vh;
+    height: 7vh;
+    top: 75%;
+    left: 13.5%;
+
+ }
+ #submitbutton{
+    height: 7vh;
+    width: 40vh;
+ }
+
+
+
+ /* _____________________________________________________________________________________________________________________________________ */
+ /* getLink css */
+
+
+ .Entertext{
+    position: absolute;
+    width: 25vh;
+    top: 32%;
+    left: 28%;
+    font-weight: bolder;
+    opacity: 95%;
+}
+.emaildiv{
+    position: absolute;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    width: 40vh;
+    height: 7vh;
+    top:48%;
+    left: 14%;
+
+}
+.getlink{
+    position: absolute;
+    top: 72%;
+    left: 14%;
+    
+}
+.getlinkimg{
+    width: 40vh;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* _____________________________________________________________________________________________________________________________________ */
+ /* Home css */
+ .bgd {
+     /* background-image: url(); */
+     margin-top: 5%;
+     overflow: auto;
+     position: fixed;
+     height: 78vh;
+     width: 100vw;
+ }
+ .first{
+    
+     background-color: white;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+      height: 10vh;
+ }
+     
+     
+.allu{
+    border-radius: 50%!important;
+    width: 3vw;
+      position: absolute;
+      left:95vw;
+      top: 2vh;
+}
+ .button1:hover{
+     transition: 2s ;
+     margin-top: -8%;
+     margin-left: -1%;
+     width: 19vw;
+     height: 24vh;
+ }
+ .button2:hover{
+     transition: 2s  ;
+     margin-top: -8%;
+     margin-left: -1%;
+     width: 19vw;
+     height: 24vh;
+ }
+ .button3:hover{
+     transition:  2s  ;
+     margin-top: -8%;
+     margin-left: -1%;
+     width: 19vw;
+     height: 24vh;
+ }
+ .button4:hover{
+     transition:  2s  ;
+     margin-top: -8%;
+     margin-left: -1%;
+     width: 19vw;
+     height: 24vh;
+ }
+ .button5:hover{
+     transition:2s  ;
+     margin-top: -8%;
+     margin-left: -1%;
+     width: 19vw;
+     height: 24vh;
+ }
+
+ .button1 {
+     background-image: linear-gradient(rgba(249, 189, 4, 1),rgba(249, 189, 4, .7)), url("./images/cloud1.avif");
+     overflow: hidden;
+     text-align: center;
+     /* display: flex;
+ justify-content:center;
+  align-items:;  */
+     position: absolute;
+     top: 75vh;
+     left: 1.8vw;
+     width: 17vw;
+     height: 22vh;
+     border-radius: 20px;
+     box-shadow: 0px 25px 40px #00070b33;
+
+     font: normal normal 600 40px/16px Poppins;
+     color: #ffffff;
+ }
+
+ .button2 {
+     background-image: linear-gradient(rgba(66, 134, 244, 1),rgba(66, 134, 244, .7)), url("./images/cloud1.avif");
+     text-align: center;
+     /* display: flex;
+ justify-content:center;
+  align-items:;  */
+     position: absolute;
+     top: 75vh;
+     left: 21.6vw;
+     width: 17vw;
+     height: 22vh;
+     /* background-color: blue; */
+     border-radius: 20px;
+     box-shadow: 0px 25px 40px #00070b33;
+
+     font: normal normal 600 40px/16px Poppins;
+     color: #ffffff;
+
+ }
+
+ .button3 {
+     background-image: linear-gradient(rgba(235,66, 53, 1), rgba(235, 66, 53, 0.7)), url("./images/cloud1.avif");
+     text-align: center;
+     /* display: flex;
+ justify-content:center;
+  align-items:;  */
+     position: absolute;
+     top: 75vh;
+     left: 41.4vw;
+     width: 17vw;
+     height: 22vh;
+     /* background-color:red; */
+     border-radius: 20px;
+     box-shadow: 0px 25px 40px #00070b33;
+
+     font: normal normal 600 40px/16px Poppins;
+     color: #ffffff;
+ }
+
+ .button4 {
+     background-image: linear-gradient(rgba(52, 169, 83, 1), rgba(52, 169, 83, .7)), url("./images/cloud1.avif");
+     text-align: center;
+     /* display: flex;
+ justify-content:center;
+  align-items:;  */
+     position: absolute;
+     top: 75vh;
+     left: 61.2vw;
+     width: 17vw;
+     height: 22vh;
+     /* background-color: green; */
+     border-radius: 20px;
+     box-shadow: 0px 25px 40px #00070b33;
+
+     font: normal normal 600 40px/16px Poppins;
+     color: #ffffff;
+ }
+
+ .button5 {
+     background-image: linear-gradient(rgba(246, 148, 32, 1), rgba(246, 148, 32, .7)), url("./images/cloud1.avif");
+     text-align: center;
+     /* display: flex;
+ justify-content:center;
+  align-items:;  */
+     position: absolute;
+     top: 75vh;
+     left: 81.8vw;
+     width: 17vw;
+     height: 22vh;
+     /* background-color: orange; */
+     border-radius: 20px;
+     box-shadow: 0px 25px 40px #00070b33;
+
+     font: normal normal 600 40px/16px Poppins;
+     color: #ffffff;
+     
+ }
+ .text1{
+     font: normal normal 100 25px/16px Poppins;
+     color: #ffffff ;
+ }
+ .heading {
+     position: absolute;
+     /* font-size:7vh;        */
+     margin-top: 17%;
+     margin-left: 7%;
+     left:22vw;
+     width: 25vw;
+     height: 30vh;
+     /* text-align: center; */
+     font: 54px/65px Poppins;
+     letter-spacing: 0px;
+     color: #FFFFFF;
+ }
+ .pera{
+     position: absolute;
+     margin-top: 27%;
+     margin-left:28% ;
+     text-align: center;
+     font: italic normal normal 15px/27px Poppins;
+     letter-spacing: 1px;
+     color: #FFFFFFE6;
+ }
+ .ss{
+    font: normal normal 100 25px/16px Poppins;
+    color: #ffffff ;   
+ }
+ .counter{
+    font: normal normal 100 25px/16px Poppins;
+    color: #ffffff ;
+ }
+ .heading{
+    position: absolute;
+    left: 22%;
+    font-size:46px;
+ }
+
+ /* _____________________________________________________________________________________________________________________________________ */
+ /* Add stu css */
+
+ .addstudent {
+    position: absolute;
+    top: 6%;
+    left: 34%;
+    height: 5vh;
+    width: 45%;
+    background-color: #ffffff;
+}
+
+.div1 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    width: 40vh;
+    box-shadow: 0px 0px 20px #00000014;
+    height: 7vh;
+    top: 18%;
+    left: 9%;
+}
+
+.div2 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    width: 40vh;
+    box-shadow: 0px 0px 20px #00000014;
+    height: 7vh;
+    top: 33%;
+    left: 9%;
+}
+
+.div3 {
+    position: absolute;
+    border-radius: 5px;
+    background-color: white;
+    width: 40vh;
+    height: 7vh;
+    box-shadow: 0px 0px 20px #00000014;
+    top: 48%;
+    left: 9%;
+}
+
+.Dropdown {
+    position: absolute;
+    width: 39vh;
+    height: 7vh;
+    outline: none;
+    background-color: white;
+    border: none;
+    left: 3%;
+    padding-left: 3%;
+    border-left: .6vh solid #F08622;
+    left: 4px solid orangered;
+    /* box-shadow: 0px 0px 20px #00000014; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+}
+
+.Dropdown2 {
+    position: absolute;
+    width: 39vh;
+    height: 7vh;
+    outline: none;
+    background-color: white;
+    border: none;
+    left: 3%;
+    padding-left: 3%;
+    border-left: .6vh solid #F08622;
+    left: 4px solid orangered;
+    /* box-shadow: 0px 0px 20px #00000014; */
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+}
+
+.LINEE {
+    border: 1px solid #e0651d30;
+}
+
+.LINE {
+    position: absolute;
+    background-color: white;
+    height: 1vh;
+    width: 41vh;
+    top: 79%;
+    left: 9.34%;
+}
+
+.OR {
+    position: absolute;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 7vh;
+    height: 4vh;
+    top: 76%;
+    left: 43%;
+}
+
+.ORtxt {
+    position: absolute;
+    top: 11%;
+    left: 23%;
+    color: #e0651d;
+}
+
+.btnDip {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 40vh;
+    height: 7vh;
+    background-color: white;
+}
+
+.btn {
+    height: 7vh;
+    width: 40vh;
+    color: white;
+    border-color: #f08622;
+    background-color: #f08622;
+    box-shadow: 0px 0px 20px #00000014;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.ImportExl {
+    position: absolute;
+    top: 83%;
+    left: 10%;
+    width: 40vh;
+    height: 7vh;
+    background-color: white;
+    box-shadow: 0px 0px 20px #00000014;
+}
+
+.SubmitBtn {
+    position: absolute;
+    height: 9vh;
+    width: 5vh;
+    color: white;
+    border-color: #f08622;
+    box-shadow: 0px 0px 20px #00000014;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
